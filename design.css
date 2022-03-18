@@ -1,0 +1,309 @@
+.banner{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 254, 242);
+    position: fixed;
+    z-index: 99;
+  }
+  
+  .banner_box{
+    width: 1100px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .logo{
+    width: 129px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(https://image.istarbucks.co.kr/common/img/main/rewards-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 22px;
+    left: -42px;
+    position: absolute;
+    display: inline-block;
+  }
+  
+  .service_top{
+    position: absolute;
+    width: 550px;
+    top: 10px;
+    right: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  .service_top h1{
+    font-size: 13px;
+    margin-right: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .service_top :hover{
+    text-decoration: underline;
+  }
+  
+  .bar{
+    width: 1px;
+    height: 15px;
+    border-right: 1px solid green;
+    margin-right: 15px;
+  }
+  
+  .service_bottom{
+    position: absolute;
+    right: 30px;
+    height: 65px;
+    right: 70px;
+    top: 55px;
+  }
+  
+  .coffee{
+    display: inline-block;
+    padding: 10px 20px 35px 20px;
+    /*hover 색 #02343F 예정*/
+    background-color: none;
+  }
+  
+  .open_service_hover{
+    display: inline-block;
+    padding: 10px 20px 40px 20px;
+    color: rgb(159, 241, 82);
+    text-decoration: underline;
+    background-color: #1C1C1B;
+  }
+  
+  .open_service_hover h1{
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+  }
+  
+  .coffee h1{
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+  }
+  
+  .menu{
+    display: inline-block;
+    padding: 10px 20px 35px 20px;
+  }
+  
+  .menu h1{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .store{
+    display: inline-block;
+    padding: 10px 20px 35px 20px;
+  }
+  
+  .store h1{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .reponsibility{
+    display: inline-block;
+    padding: 10px 20px 35px 20px;
+  }
+  
+  .reponsibility h1{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .starbucksrewards{
+    display: inline-block;
+    padding: 10px 20px 35px 20px;
+  }
+  
+  .starbucksrewards h1{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .whatsnew{
+    display: inline-block;
+    padding: 10px 20px 35px 20px;
+  }
+  
+  .whatsnew h1{
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .open_service{
+    position: absolute;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: 120px;
+    top: 0px;
+    left: 0px;
+    background-color: #1C1C1B;
+    z-index: 9999;
+  }
+  
+  .open_service_on{
+    position: absolute;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    margin-top: 120px;
+    top: 0px;
+    left: 0px;
+    background-color: #1C1C1B;
+    transition: max-height 1s;
+    z-index: 9999;
+  }
+  
+  .open_service_off{
+    position: absolute;
+    width: 100%;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: 120px;
+    top: 0px;
+    left: 0px;
+    transition: max-height .5s;
+    background-color: #1C1C1B;
+    z-index: 9999;
+  }
+  
+  
+  .box{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box li{
+    list-style: none;
+  }
+  
+  .li_0{
+    display: inline-block;
+    width: 50px;
+    margin: 25px 170px 25px 0px;
+  }
+  
+  
+  .li_0 h1{
+    font-size: 15px;
+    font-weight: 500;
+    color: #EC4D36;
+    margin-bottom: 20px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
+  .li_0 h1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .li_0 li{
+    display: inline-block;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 200;
+    color: #c5b9ba;
+    margin-bottom: 3px;
+  }
+  
+  .li_0 li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .box2{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box2 li{
+    list-style: none;
+  }
+  
+  .box3{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box3 li{
+    list-style: none;
+  }
+  
+  .box4{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box4 li{
+    list-style: none;
+  }
+  
+  .box5{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box5 li{
+    list-style: none;
+  }
+  
+  .box6{
+    display: flex;
+    align-items: flex-start;
+    width: 1100px;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .box6 li{
+    list-style: none;
+  }
+
+  /* 두번째 섹션 */
+  
